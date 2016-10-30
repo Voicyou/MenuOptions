@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Backend/etc/menu.xsd">
+    <menu>
+        <add id="Voicyou_MenuOptions::voicyou_menuoptions" title="Voicyou" module="Voicyou_MenuOptions"  sortOrder="20" dependsOnModule="Voicyou_MenuOptions"  resource="Voicyou_MenuOptions::voicyou_menuoptions"/>
+
+  <add id="Voicyou_MenuOptions::voicyou_menuoptionscron" title="Cron Listing" module="Voicyou_MenuOptions" sortOrder="50"
+             parent="Voicyou_MenuOptions::voicyou_menuoptions" dependsOnModule="Voicyou_MenuOptions" action="cron/cron/index" resource="Voicyou_MenuOptions::voicyou_menuoptions"
+                />
+  <add id="Voicyou_MenuOptions::voicyou_menuoptionsconfig" title="Voicyou Configurations" module="Voicyou_MenuOptions" sortOrder="50"
+             parent="Voicyou_MenuOptions::voicyou_menuoptions" dependsOnModule="Voicyou_MenuOptions" action="adminhtml/system_config/index" resource="Voicyou_MenuOptions::voicyou_menuoptions"
+                />
+    </menu>
+</config>

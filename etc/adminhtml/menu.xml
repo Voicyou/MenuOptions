@@ -3,11 +3,5 @@
     <menu>
         <add id="Voicyou_MenuOptions::voicyou_menuoptions" title="Voicyou" module="Voicyou_MenuOptions"  sortOrder="10" dependsOnModule="Voicyou_MenuOptions"  resource="Voicyou_MenuOptions::voicyou_menuoptions"/>
         <add id="Voicyou_MenuOptions::voicyou_menuoptionscron" title="Cron Listing" module="Voicyou_MenuOptions" sortOrder="20"  parent="Voicyou_MenuOptions::voicyou_menuoptions"  action="cron/cron/index" resource="Voicyou_MenuOptions::voicyou_menuoptions" />
-        <add id="Voicyou_MenuOptions::voicyou_menuoptionscarousel" title="Carousel" module="Voicyou_MenuOptions" sortOrder="30"  parent="Voicyou_MenuOptions::voicyou_menuoptions"  action="carousel/carousel/index" resource="Voicyou_MenuOptions::voicyou_menuoptions" />
-        <add id="Voicyou_MenuOptions::voicyou_menuoptionsconfig" title="Voicyou Configurations" module="Voicyou_MenuOptions" sortOrder="40"  parent="Voicyou_MenuOptions::voicyou_menuoptions"  action="adminhtml/system_config/index" resource="Voicyou_MenuOptions::voicyou_menuoptions"/>
-        <add id="Voicyou_MenuOptions::voicyou_productviewreports" title="Product View Reports" translate="title" module="Voicyou_MenuOptions" sortOrder="50" parent="Voicyou_MenuOptions::voicyou_menuoptions" dependsOnModule="Voicyou_MenuOptions" resource="Voicyou_MenuOptions::voicyou_menuoptions"/>
-        <add id="Voicyou_MenuOptions::voicyou_productviewsdaily" title="Daily" module="Voicyou_MenuOptions" sortOrder="60" parent="Voicyou_MenuOptions::voicyou_productviewreports"  action="productviews/productviews/daily" resource="Voicyou_MenuOptions::voicyou_menuoptions" />  
-        <add id="Voicyou_MenuOptions::voicyou_productviewsmonthly" title="Monthly" module="Voicyou_MenuOptions" sortOrder="70" parent="Voicyou_MenuOptions::voicyou_productviewreports"  action="productviews/productviews/monthly" resource="Voicyou_MenuOptions::voicyou_menuoptions" />
-        <add id="Voicyou_MenuOptions::voicyou_productviewsyearly" title="Yearly" module="Voicyou_MenuOptions" sortOrder="80" parent="Voicyou_MenuOptions::voicyou_productviewreports"  action="productviews/productviews/yearly" resource="Voicyou_MenuOptions::voicyou_menuoptions" />
     </menu>
 </config>

@@ -2,9 +2,10 @@
   "name": "voicyou/menuoptions",
   "description": "This is a Magento 2 Module for creating the menu for all the modules under Voicyou vendor. ",
   "require": {
-    "php": "~5.5.0|~5.6.0|~7.0.0"
+    "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0"
   },
   "type": "magento2-module",
+  "version":"1.0.0",
   "license": [
     "OSL-3.0",
     "AFL-3.0"
